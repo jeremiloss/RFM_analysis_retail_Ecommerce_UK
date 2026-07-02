@@ -106,19 +106,23 @@ Estas son las hipótesis que guiaron el análisis, planteadas antes de explorar 
 
 ```
 ecommerce-analisis/
-├── data/
+├── data/                                 # Se debebe crear esta carpeta respetando la estructura de la misma para ejecutar el proyecto
 │   ├── Raw/
 │   │   └── online_retail_raw.xlsx        # Dataset original
 │   └── Processed/
 │       ├── online_retail_CLEAN.csv       # Dataset limpio (output de notebook 01)
 │       └── online_retail_rfm_completo.csv # Dataset con segmentos RFM
+├── images/
+│   ├── distribucion_ventas_diarios.png
+│   ├── evo_mensual_ingresos_totales.png
+│   ├── RFM.png
+│   ├── segmentacion_clientes_rfm.png
+│   ├── top10_paises_mayor_recaudacion.png
+│   └── top10_productos_mayor_ingreso.png
 ├── notebooks/
-│   ├── 01_limpieza.ipynb                 # Limpieza y preparación
+│   ├── 01_limpieza.ipynb                 # Limpieza y transformación
 │   ├── 02_eda.ipynb                      # Análisis exploratorio
 │   └── 03_rfm_segmentacion.ipynb        # Modelo RFM y segmentación
-├── imagenes/
-│   ├── distribucion_rfm.png
-│   └── segmentos_rfm.png
 └── README.md
 ```
 
@@ -141,7 +145,11 @@ pip install pandas matplotlib seaborn openpyxl jupyter
 
 Descargá el archivo desde [Kaggle - Online Retail II](https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci) y guardalo en `data/Raw/`.
 
-**4. Ejecutar los notebooks en orden**
+**4. Crear la carpeta Data siguiendo la guía de estructura**
+
+Siguiendo la guia estructura del proyecto, creá la carpeta Data.
+
+**5. Ejecutar los notebooks en orden**
 ```bash
 jupyter notebook
 ```
@@ -152,8 +160,8 @@ jupyter notebook
 ## 📬 Contacto
 
 **Tu Nombre**
-- LinkedIn: [linkedin.com/in/tu-perfil](https://linkedin.com/in/tu-perfil)
-- Email: tu@email.com
+- [Mi LinkedIn](https://www.linkedin.com/in/jerem%C3%ADas-tor%C3%A9-productdesigner/)
+- [Mi portfolio](https://v0-jeremiastoredesigner.vercel.app/)
 
 ---
 
