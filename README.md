@@ -1,0 +1,154 @@
+# 🛒 Análisis de Ventas E-Commerce UK — Segmentación RFM y Patrones de Comportamiento
+
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-2.0-150458?logo=pandas&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-Visualización-4C72B0?logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)
+![Estado](https://img.shields.io/badge/Estado-Completo-brightgreen)
+
+---
+
+## 📌 Contexto y objetivo
+
+Este proyecto analiza el dataset **Online Retail II (UCI)**, que contiene más de 500.000 transacciones reales de una tienda online del Reino Unido entre 2010 y 2011.
+
+El objetivo es responder tres preguntas concretas de negocio:
+
+> **¿Cuándo y dónde se concentran los ingresos?**
+> **¿Qué productos impulsan realmente la facturación?**
+> **¿Qué tipo de clientes tiene la tienda y cómo retener a los más valiosos?**
+
+---
+
+## 🔬 Hipótesis de análisis
+
+Estas son las hipótesis que guiaron el análisis, planteadas antes de explorar los datos y contrastadas con los resultados obtenidos.
+
+### Hipótesis 1 — Estacionalidad de ingresos
+> *"Los ingresos no se distribuyen uniformemente a lo largo del año. Se espera un pico pronunciado en el último trimestre (octubre–diciembre) asociado a la temporada navideña en el mercado británico."*
+
+**Análisis que la responde:** `02_eda.ipynb` → Evolución mensual de ingresos totales  
+**Cómo leerlo:** Si la línea temporal muestra un crecimiento sostenido que culmina en noviembre o diciembre, la hipótesis se confirma. Un comportamiento plano la refutaría.
+
+---
+
+### Hipótesis 2 — Concentración geográfica de la facturación
+> *"Aunque la tienda opera a nivel internacional, el grueso de los ingresos proviene del Reino Unido. Los países europeos cercanos (Alemania, Francia, Países Bajos) representan el segundo grupo más importante."*
+
+**Análisis que la responde:** `02_eda.ipynb` → Top 10 países con mayor facturación  
+**Cómo leerlo:** Si el gráfico de barras muestra al UK muy por encima del resto, la hipótesis se confirma. Si otros países tienen participación comparable, indicaría una base internacional más diversificada de lo esperado.
+
+---
+
+### Hipótesis 3 — Productos de alto ingreso vs. alto volumen
+> *"Los productos que más ingresos generan no son necesariamente los más vendidos en cantidad. Existen artículos de alto valor unitario que dominan la facturación con menor volumen de unidades."*
+
+**Análisis que la responde:** `02_eda.ipynb` → Top 10 productos por ingresos totales  
+**Cómo leerlo:** Comparar el ranking de ingresos con el de cantidad vendida. Si los productos no coinciden entre listas, la hipótesis se confirma y revela una oportunidad de pricing strategy.
+
+---
+
+### Hipótesis 4 — Patrón semanal de compras
+> *"Las compras se concentran en días hábiles (lunes a jueves), con una caída marcada el fin de semana. Esto sugiere que una porción significativa de los compradores son empresas (B2B), no consumidores finales."*
+
+**Análisis que la responde:** `02_eda.ipynb` → Distribución de ventas por día de la semana  
+**Cómo leerlo:** Si el gráfico muestra barras altas de lunes a jueves y baja actividad en sábado/domingo, la hipótesis B2B se sostiene y tiene implicancias directas para la estrategia de campañas de email.
+
+---
+
+### Hipótesis 5 — Segmentación desigual de clientes (Principio de Pareto)
+> *"Una minoría de clientes genera la mayoría de los ingresos. Se espera que los segmentos 'Campeones' y 'Clientes leales' concentren más del 50% de la facturación total, a pesar de ser una fracción pequeña de la base de clientes."*
+
+**Análisis que la responde:** `03_rfm_segmentacion.ipynb` → Gasto promedio por segmento RFM  
+**Cómo leerlo:** Comparar el gasto promedio del segmento Campeones contra Hibernando. Una diferencia de 5x o más confirma la desigualdad y justifica estrategias de retención diferenciadas.
+
+---
+
+### Hipótesis 6 — Clientes recientes pero poco frecuentes como oportunidad
+> *"Existe un grupo relevante de clientes con alta recencia (compraron hace poco) pero baja frecuencia (pocas compras). Son 'Nuevos' o 'Prometedores' y representan la mayor oportunidad de crecimiento con campañas de activación temprana."*
+
+**Análisis que la responde:** `03_rfm_segmentacion.ipynb` → Cantidad de clientes por segmento  
+**Cómo leerlo:** Si los segmentos "Nuevos clientes" y "Prometedores" tienen un volumen alto de clientes, hay una oportunidad concreta de convertirlos en compradores recurrentes con el onboarding adecuado.
+
+---
+
+## 🔍 Hallazgos principales
+
+> ⚠️ *Completá esta sección con los números reales después de ejecutar los notebooks.*
+
+- **Hipótesis 1 [confirmada/refutada]:** *(ej. "Los ingresos de noviembre 2011 superaron en un X% al promedio mensual del año")*
+- **Hipótesis 2 [confirmada/refutada]:** *(ej. "UK concentra el X% de la facturación total; el segundo país no supera el X%")*
+- **Hipótesis 3 [confirmada/refutada]:** *(ej. "Solo 3 de los 10 productos con mayor ingreso coinciden con el top 10 por cantidad")*
+- **Hipótesis 4 [confirmada/refutada]:** *(ej. "El jueves concentra el X% de las ventas semanales; el domingo representa menos del X%")*
+- **Hipótesis 5 [confirmada/refutada]:** *(ej. "Los Campeones gastan en promedio Xveces más que los clientes en Hibernando")*
+- **Hipótesis 6 [confirmada/refutada]:** *(ej. "Los segmentos Nuevos + Prometedores suman X clientes, el X% de la base total")*
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+| Herramienta | Uso |
+|---|---|
+| Python 3.10 | Procesamiento y análisis |
+| Pandas | Manipulación y agrupación de datos |
+| Matplotlib / Seaborn | Visualizaciones estáticas |
+| Jupyter Notebook | Documentación del análisis |
+
+---
+
+## 📁 Estructura del proyecto
+
+```
+ecommerce-analisis/
+├── data/
+│   ├── Raw/
+│   │   └── online_retail_raw.xlsx        # Dataset original
+│   └── Processed/
+│       ├── online_retail_CLEAN.csv       # Dataset limpio (output de notebook 01)
+│       └── online_retail_rfm_completo.csv # Dataset con segmentos RFM
+├── notebooks/
+│   ├── 01_limpieza.ipynb                 # Limpieza y preparación
+│   ├── 02_eda.ipynb                      # Análisis exploratorio
+│   └── 03_rfm_segmentacion.ipynb        # Modelo RFM y segmentación
+├── imagenes/
+│   ├── distribucion_rfm.png
+│   └── segmentos_rfm.png
+└── README.md
+```
+
+---
+
+## ▶️ Cómo ejecutar el proyecto
+
+**1. Clonar el repositorio**
+```bash
+git clone https://github.com/TU-USUARIO/ecommerce-analisis.git
+cd ecommerce-analisis
+```
+
+**2. Instalar dependencias**
+```bash
+pip install pandas matplotlib seaborn openpyxl jupyter
+```
+
+**3. Descargar el dataset**
+
+Descargá el archivo desde [Kaggle - Online Retail II](https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci) y guardalo en `data/Raw/`.
+
+**4. Ejecutar los notebooks en orden**
+```bash
+jupyter notebook
+```
+`01_limpieza` → `02_eda` → `03_rfm_segmentacion`
+
+---
+
+## 📬 Contacto
+
+**Tu Nombre**
+- LinkedIn: [linkedin.com/in/tu-perfil](https://linkedin.com/in/tu-perfil)
+- Email: tu@email.com
+
+---
+
+*Dataset público de UCI Machine Learning Repository — Online Retail II.*
