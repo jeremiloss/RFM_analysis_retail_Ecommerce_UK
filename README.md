@@ -147,7 +147,9 @@ Descargá el archivo desde [Kaggle - Online Retail II](https://www.kaggle.com/da
 
 **4. Crear la carpeta Data siguiendo la guía de estructura**
 
-Siguiendo la guia estructura del proyecto, creá la carpeta Data.
+```bash
+Siguiendo la guía estructura del proyecto, creá la carpeta Data.
+```
 
 **5. Ejecutar los notebooks en orden**
 ```bash
@@ -159,7 +161,6 @@ jupyter notebook
 
 ## 📬 Contacto
 
-**Tu Nombre**
 - [Mi LinkedIn](https://www.linkedin.com/in/jerem%C3%ADas-tor%C3%A9-productdesigner/)
 - [Mi portfolio](https://v0-jeremiastoredesigner.vercel.app/)
 
