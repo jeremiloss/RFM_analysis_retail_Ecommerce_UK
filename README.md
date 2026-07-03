@@ -76,7 +76,7 @@ Estas son las hipótesis que guiaron el análisis, planteadas antes de explorar 
 
 > ⚠️ *Completá esta sección con los números reales después de ejecutar los notebooks.*
 
-- **Hipótesis 1 [confirmada/refutada]:** *"Se puede ver un pico claro en el último trimestre, relacionado a la temporada navideña"*
+- **Hipótesis 1 [confirmada]:** *"Se puede ver una tendencia de subida en el mes 8 y luego ya un pico en los meses siguientes directamente ligado a la temporada navideña"*
 ![Evolución Mensual de Ingresos](images/evo_mensual_ingresos_totales.png)
 - **Hipótesis 2 [confirmada/refutada]:** *(ej. "UK concentra el X% de la facturación total; el segundo país no supera el X%")*
 ![Top 10 de paises con mayor recaudación](images/top10_paises_mayor_recaudacion.png)
