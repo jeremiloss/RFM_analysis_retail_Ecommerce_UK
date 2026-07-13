@@ -55,9 +55,9 @@ Estas son las hipótesis que guiaron el análisis, planteadas antes de explorar 
 
 ## 🔍 Hallazgos principales
 
-**Hipótesis 1 [Confirmada]:** *"El pico histórico del dataset ocurre en noviembre de 2010, alcanzando más de 1.16 millones de libras en ventas; una cifra que superó en un 67.2% al promedio mensual de ese mismo año. Este comportamiento confirma la enorme dependencia del negocio hacia la campaña de Q4 (octubre-diciembre) impulsada por las festividades de fin de año."*
+- **Hipótesis 1 [Confirmada]:** *"El pico histórico del dataset ocurre en noviembre de 2010, alcanzando más de 1.16 millones de libras en ventas; una cifra que superó en un 67.2% al promedio mensual de ese mismo año. Este comportamiento confirma la enorme dependencia del negocio hacia la campaña de Q4 (octubre-diciembre) impulsada por las festividades de fin de año."*
 ![Evolución Mensual de Ingresos](images/evo_mensual_ingresos_totales.png)
-- **Hipótesis 2 CONFIRMADA**
+- **Hipótesis 2 [Confirmada]:** *"El Reino Unido concentra el 83.0% de la facturación total global de la tienda, dejando en claro que es el motor absoluto del negocio. Irlanda ocupa el segundo puesto global con un 3.5%, seguido muy de cerca por los Países Bajos (3.1%), Alemania (2.4%) y Francia (2.0%). Ningún país fuera de este grupo europeo logra superar el umbral del 1% de participación."*
 ![Top 10 de paises con mayor recaudación](images/top10_paises_recaudacion.png)
 - **Hipótesis 3 CONFIRMADA**
 ![Top 10 productos de mayor ingreso](images/top10_productos_mayor_ingreso.png)
