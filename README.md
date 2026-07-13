@@ -33,22 +33,17 @@ Estas son las hipótesis que guiaron el análisis, planteadas antes de explorar 
 
 ---
 
-### Hipótesis 3 — Productos de alto ingreso vs. alto volumen
-> *"Los productos que más ingresos generan no son necesariamente los más vendidos en cantidad. Existen artículos de alto valor unitario que dominan la facturación con menor volumen de unidades."*
-
----
-
-### Hipótesis 4 — Patrón semanal de compras
+### Hipótesis 3 — Patrón semanal de compras
 > *"Las compras se concentran en días hábiles (lunes a jueves), con una caída marcada el fin de semana. Esto sugiere que una porción significativa de los compradores son empresas (B2B), no consumidores finales."*
 
 ---
 
-### Hipótesis 5 — Segmentación desigual de clientes (Principio de Pareto)
+### Hipótesis 4 — Segmentación desigual de clientes (Principio de Pareto)
 > *"Una minoría de clientes genera la mayoría de los ingresos. Se espera que los segmentos 'Campeones' y 'Clientes leales' concentren más del 50% de la facturación total, a pesar de ser una fracción pequeña de la base de clientes."*
 
 ---
 
-### Hipótesis 6 — Clientes recientes pero poco frecuentes como oportunidad
+### Hipótesis 5 — Clientes recientes pero poco frecuentes como oportunidad
 > *"Existe un grupo relevante de clientes con alta recencia (compraron hace poco) pero baja frecuencia (pocas compras). Son 'Nuevos' o 'Prometedores' y representan la mayor oportunidad de crecimiento con campañas de activación temprana."*
 
 ---
