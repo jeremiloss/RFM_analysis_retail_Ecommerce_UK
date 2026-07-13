@@ -76,11 +76,11 @@ Estas son las hipótesis que guiaron el análisis, planteadas antes de explorar 
 
 > ⚠️ *Completá esta sección con los números reales después de ejecutar los notebooks.*
 
-- **Hipótesis 1 [confirmada]:** *"Se puede ver una tendencia de subida en el mes 8 y luego ya un pico en los meses siguientes directamente ligado a la temporada navideña"*
+- **Hipótesis 1 [confirmada]:** *"Se puede ver una tendencia de subida en el mes 8 y luego un pico en los meses siguientes directamente ligado a la temporada navideña"*
 ![Evolución Mensual de Ingresos](images/evo_mensual_ingresos_totales.png)
-- **Hipótesis 2 [confirmada/refutada]:** *(ej. "UK concentra el X% de la facturación total; el segundo país no supera el X%")*
+- **Hipótesis 2 [confirmada]:** *"UK concentra el mayo porcentaje de la facturación total"*
 ![Top 10 de paises con mayor recaudación](images/top10_paises_mayor_recaudacion.png)
-- **Hipótesis 3 [confirmada/refutada]:** *(ej. "Solo 3 de los 10 productos con mayor ingreso coinciden con el top 10 por cantidad")*
+- **Hipótesis 3 [confirmada]:**
 ![Top 10 productos de mayor ingreso](images/top10_productos_mayor_ingreso.png)
 - **Hipótesis 4 [confirmada/refutada]:** *(ej. "El jueves concentra el X% de las ventas semanales; el domingo representa menos del X%")*
 ![Distribución de ventas diarias](images/distribucion_ventas_diarios.png)
