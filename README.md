@@ -55,8 +55,6 @@ Estas son las hipótesis que guiaron el análisis, planteadas antes de explorar 
 
 ## 🔍 Hallazgos principales
 
-> ⚠️ *Completá esta sección con los números reales después de ejecutar los notebooks.*
-
 - **Hipótesis 1 CONFIRMADA**
 ![Evolución Mensual de Ingresos](images/evo_mensual_ingresos_totales.png)
 - **Hipótesis 2 CONFIRMADA**
