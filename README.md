@@ -58,7 +58,7 @@ Estas son las hipótesis que guiaron el análisis, planteadas antes de explorar 
 ![Distribución de ventas diarias](images/distribucion_ventas_diarios.png)
 - **Hipótesis 4 [Confirmada]:** *"Se valida el Principio de Pareto, altísima dependencia hacia un nicho reducido de compradores. los escores más altos de Recencia y Frecuencia, demuestran que apenas el 15.4% de la base total de clientes genera el 62.1% de los ingresos globales de la tienda. Un usuario del segmento 'Campeones' gasta en promedio 24 veces más que un usuario inactivo del segmento 'Perdidos' o 'Hibernando'. Esto justifica por completo enfocar los esfuerzos de producto y fidelización en retener a este grupo exclusivo, cuyo abandono impactaría críticamente al negocio."*
 ![Segmentacion de clientes RFM](images/segmentacion_clientes_rfm.png)
-- **Hipótesis 5 CONFIRMADA**
+- **Hipótesis 5 [Confirmada]:** *"Los datos revelan la existencia de una ventana de oportunidad crítica para el crecimiento del negocio mediante la activación temprana. Al agrupar a los usuarios con máxima recencia pero que registran una frecuencia inicial baja, identificamos que este grupo de 'Nuevos Clientes' y 'Prometedores' suma un total de 894 usuarios, representando el 14.87% de la base total de clientes. Al ser usuarios que ya vencieron la barrera de confianza y realizaron su primera transacción de forma reciente, se consolidan como el segmento con mayor retorno de inversión potencial si se aplican estrategias de conversión inmediatas."*
 ![Segmentacion de clientes RFM](images/segmentacion_clientes_rfm.png)
 
 ---
