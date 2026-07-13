@@ -1,4 +1,4 @@
-# 🛒 Análisis de Ventas E-Commerce UK — Segmentación RFM y Patrones de Comportamiento
+# 🛒 Análisis de Ventas E-Commerce 🇬🇧 — Segmentación RFM y Patrones de Comportamiento
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-2.0-150458?logo=pandas&logoColor=white)
