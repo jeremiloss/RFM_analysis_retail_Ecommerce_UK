@@ -54,13 +54,11 @@ Estas son las hipótesis que guiaron el análisis, planteadas antes de explorar 
 ![Evolución Mensual de Ingresos](images/evo_mensual_ingresos_totales.png)
 - **Hipótesis 2 [Confirmada]:** *"El Reino Unido concentra el 83.0% de la facturación total global de la tienda, dejando en claro que es el motor absoluto del negocio. Irlanda ocupa el segundo puesto global con un 3.5%, seguido muy de cerca por los Países Bajos (3.1%), Alemania (2.4%) y Francia (2.0%). Ningún país fuera de este grupo europeo logra superar el umbral del 1% de participación."*
 ![Top 10 de paises con mayor recaudación](images/top10_paises_recaudacion.png)
-- **Hipótesis 3 CONFIRMADA**
-![Top 10 productos de mayor ingreso](images/top10_productos_mayor_ingreso.png)
-- **Hipótesis 4 CONFIRMADA**
+- **Hipótesis 3 [Confirmada]:** *"El comportamiento de compra muestra una fuerte concentración durante los días hábiles, acumulando el 89.7% de la facturación entre los días lunes y viernes. El jueves se posiciona como el día de mayor actividad, concentrando el 21.6% de los ingresos semanales, seguido de cerca por el martes (19.1%). La hipótesis de una audiencia mayoritariamente corporativa (B2B) cobra mucha fuerza al analizar el fin de semana: el domingo la participación cae a un 10.2% y el sábado registra una actividad prácticamente nula (0.05%). Este "cero" en el gráfico revela una particularidad operativa del e-commerce (como el cierre del centro de distribución o la falta de procesamiento de facturas ese día), confirmando que las campañas de marketing y la atención al cliente deben optimizarse fuertemente para el bloque de lunes a jueves."*
 ![Distribución de ventas diarias](images/distribucion_ventas_diarios.png)
-- **Hipótesis 5 CONFIRMADA**
+- **Hipótesis 4 CONFIRMADA**
 ![Segmentacion de clientes RFM](images/segmentacion_clientes_rfm.png)
-- **Hipótesis 6 CONFIRMADA**
+- **Hipótesis 5 CONFIRMADA**
 ![Segmentacion de clientes RFM](images/segmentacion_clientes_rfm.png)
 
 ---
