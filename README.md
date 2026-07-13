@@ -55,7 +55,7 @@ Estas son las hipótesis que guiaron el análisis, planteadas antes de explorar 
 
 ## 🔍 Hallazgos principales
 
-**Hipótesis 1 [Confirmada]:** *"El pico histórico del dataset ocurre en noviembre de 2011, alcanzando más de 1.16 millones de libras en ventas; una cifra que superó en un 67.2% al promedio mensual de ese mismo año. Este comportamiento confirma la enorme dependencia del negocio hacia la campaña de Q4 (octubre-diciembre) impulsada por las festividades de fin de año."*
+**Hipótesis 1 [Confirmada]:** *"El pico histórico del dataset ocurre en noviembre de 2010, alcanzando más de 1.16 millones de libras en ventas; una cifra que superó en un 67.2% al promedio mensual de ese mismo año. Este comportamiento confirma la enorme dependencia del negocio hacia la campaña de Q4 (octubre-diciembre) impulsada por las festividades de fin de año."*
 ![Evolución Mensual de Ingresos](images/evo_mensual_ingresos_totales.png)
 - **Hipótesis 2 CONFIRMADA**
 ![Top 10 de paises con mayor recaudación](images/top10_paises_recaudacion.png)
