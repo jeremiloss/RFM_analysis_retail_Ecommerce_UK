@@ -26,49 +26,30 @@ Estas son las hipótesis que guiaron el análisis, planteadas antes de explorar 
 
 ### Hipótesis 1 — Estacionalidad de ingresos
 > *"Los ingresos no se distribuyen uniformemente a lo largo del año. Se espera un pico pronunciado en el último trimestre (octubre–diciembre) asociado a la temporada navideña en el mercado británico."*
-
-**Análisis que la responde:** `02_eda.ipynb` → Evolución mensual de ingresos totales  
-**Cómo leerlo:** Si la línea temporal muestra un crecimiento sostenido que culmina en noviembre o diciembre, la hipótesis se confirma. Un comportamiento plano la refutaría.
-
 ---
 
 ### Hipótesis 2 — Concentración geográfica de la facturación
 > *"Aunque la tienda opera a nivel internacional, el grueso de los ingresos proviene del Reino Unido. Los países europeos cercanos (Alemania, Francia, Países Bajos) representan el segundo grupo más importante."*
-
-**Análisis que la responde:** `02_eda.ipynb` → Top 10 países con mayor facturación  
-**Cómo leerlo:** Si el gráfico de barras muestra al UK muy por encima del resto, la hipótesis se confirma. Si otros países tienen participación comparable, indicaría una base internacional más diversificada de lo esperado.
 
 ---
 
 ### Hipótesis 3 — Productos de alto ingreso vs. alto volumen
 > *"Los productos que más ingresos generan no son necesariamente los más vendidos en cantidad. Existen artículos de alto valor unitario que dominan la facturación con menor volumen de unidades."*
 
-**Análisis que la responde:** `02_eda.ipynb` → Top 10 productos por ingresos totales  
-**Cómo leerlo:** Comparar el ranking de ingresos con el de cantidad vendida. Si los productos no coinciden entre listas, la hipótesis se confirma y revela una oportunidad de pricing strategy.
-
 ---
 
 ### Hipótesis 4 — Patrón semanal de compras
 > *"Las compras se concentran en días hábiles (lunes a jueves), con una caída marcada el fin de semana. Esto sugiere que una porción significativa de los compradores son empresas (B2B), no consumidores finales."*
-
-**Análisis que la responde:** `02_eda.ipynb` → Distribución de ventas por día de la semana  
-**Cómo leerlo:** Si el gráfico muestra barras altas de lunes a jueves y baja actividad en sábado/domingo, la hipótesis B2B se sostiene y tiene implicancias directas para la estrategia de campañas de email.
 
 ---
 
 ### Hipótesis 5 — Segmentación desigual de clientes (Principio de Pareto)
 > *"Una minoría de clientes genera la mayoría de los ingresos. Se espera que los segmentos 'Campeones' y 'Clientes leales' concentren más del 50% de la facturación total, a pesar de ser una fracción pequeña de la base de clientes."*
 
-**Análisis que la responde:** `03_rfm_segmentacion.ipynb` → Gasto promedio por segmento RFM  
-**Cómo leerlo:** Comparar el gasto promedio del segmento Campeones contra Hibernando. Una diferencia de 5x o más confirma la desigualdad y justifica estrategias de retención diferenciadas.
-
 ---
 
 ### Hipótesis 6 — Clientes recientes pero poco frecuentes como oportunidad
 > *"Existe un grupo relevante de clientes con alta recencia (compraron hace poco) pero baja frecuencia (pocas compras). Son 'Nuevos' o 'Prometedores' y representan la mayor oportunidad de crecimiento con campañas de activación temprana."*
-
-**Análisis que la responde:** `03_rfm_segmentacion.ipynb` → Cantidad de clientes por segmento  
-**Cómo leerlo:** Si los segmentos "Nuevos clientes" y "Prometedores" tienen un volumen alto de clientes, hay una oportunidad concreta de convertirlos en compradores recurrentes con el onboarding adecuado.
 
 ---
 
@@ -76,11 +57,11 @@ Estas son las hipótesis que guiaron el análisis, planteadas antes de explorar 
 
 > ⚠️ *Completá esta sección con los números reales después de ejecutar los notebooks.*
 
-- **Hipótesis 1 [confirmada]:** *"Se puede ver una tendencia de subida en el mes 8 y luego un pico en los meses siguientes directamente ligado a la temporada navideña"*
+- **Hipótesis 1 [confirmada/refutada]:** *(ej. "Los ingresos de noviembre 2011 superaron en un X% al promedio mensual del año")*
 ![Evolución Mensual de Ingresos](images/evo_mensual_ingresos_totales.png)
-- **Hipótesis 2 [confirmada]:** *"UK concentra el mayo porcentaje de la facturación total"*
+- **Hipótesis 2 [confirmada/refutada]:** *(ej. "UK concentra el X% de la facturación total; el segundo país no supera el X%")*
 ![Top 10 de paises con mayor recaudación](images/top10_paises_mayor_recaudacion.png)
-- **Hipótesis 3 [confirmada]:**
+- **Hipótesis 3 [confirmada/refutada]:** *(ej. "Solo 3 de los 10 productos con mayor ingreso coinciden con el top 10 por cantidad")*
 ![Top 10 productos de mayor ingreso](images/top10_productos_mayor_ingreso.png)
 - **Hipótesis 4 [confirmada/refutada]:** *(ej. "El jueves concentra el X% de las ventas semanales; el domingo representa menos del X%")*
 ![Distribución de ventas diarias](images/distribucion_ventas_diarios.png)
