@@ -56,23 +56,16 @@ Estas son las hipótesis que guiaron el análisis, planteadas antes de explorar 
 ## 🔍 Hallazgos principales
 
 - **Hipótesis 1 CONFIRMADA**
-  
 ![Evolución Mensual de Ingresos](images/evo_mensual_ingresos_totales.png)
-
 - **Hipótesis 2 CONFIRMADA**
 ![Top 10 de paises con mayor recaudación](images/top10_paises_recaudacion.png)
-
 - ***Hipótesis 3 CONFIRMADA**
 ![Top 10 productos de mayor ingreso](images/top10_productos_mayor_ingreso.png)
-
 - **Hipótesis 4 CONFIRMADA**
 ![Distribución de ventas diarias](images/distribucion_ventas_diarios.png)
-
 - **Hipótesis 5 CONFIRMADA**
 ![Segmentacion de clientes RFM](images/segmentacion_clientes_rfm.png)
-
 - **Hipótesis 6 CONFIRMADA**
-  
 ![Segmentacion de clientes RFM](images/segmentacion_clientes_rfm.png)
 
 ---
