@@ -60,7 +60,7 @@ Estas son las hipótesis que guiaron el análisis, planteadas antes de explorar 
 - **Hipótesis 1 [confirmada/refutada]:** *(ej. "Los ingresos de noviembre 2011 superaron en un X% al promedio mensual del año")*
 ![Evolución Mensual de Ingresos](images/evo_mensual_ingresos_totales.png)
 - **Hipótesis 2 [confirmada/refutada]:** *(ej. "UK concentra el X% de la facturación total; el segundo país no supera el X%")*
-![Top 10 de paises con mayor recaudación](images/top10_paises_mayor_recaudacion.png)
+![Top 10 de paises con mayor recaudación](images/top10_paises_recaudacion.png)
 - **Hipótesis 3 [confirmada/refutada]:** *(ej. "Solo 3 de los 10 productos con mayor ingreso coinciden con el top 10 por cantidad")*
 ![Top 10 productos de mayor ingreso](images/top10_productos_mayor_ingreso.png)
 - **Hipótesis 4 [confirmada/refutada]:** *(ej. "El jueves concentra el X% de las ventas semanales; el domingo representa menos del X%")*
